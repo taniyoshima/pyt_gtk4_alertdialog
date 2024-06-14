@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.90.2 -->
+<interface>
+  <!-- interface-name ui_file.ui -->
+  <requires lib="gtk" version="4.12"/>
+  <object class="GtkAlertDialog" id="alertdialog">
+    <property name="buttons">Ok</property>
+    <property name="default-button">0</property>
+    <property name="detail">uiファイルで内容を指定したGtk.AlertDialogです。</property>
+    <property name="message">Gtk.AlertDialog</property>
+  </object>
+  <template class="window" parent="GtkApplicationWindow">
+    <property name="default-height">60</property>
+    <property name="default-width">350</property>
+    <property name="title">pyt_gtk4_alertdialog</property>
+    <child>
+      <object class="GtkButton">
+        <property name="label">Gtk.AlertDialogの呼び出し</property>
+        <property name="margin-bottom">20</property>
+        <property name="margin-end">20</property>
+        <property name="margin-start">20</property>
+        <property name="margin-top">20</property>
+        <signal name="clicked" handler="on_button_clicked"/>
+      </object>
+    </child>
+  </template>
+</interface>

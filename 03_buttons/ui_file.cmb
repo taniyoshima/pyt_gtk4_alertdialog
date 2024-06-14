@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE cambalache-project SYSTEM "cambalache-project.dtd">
+<cambalache-project version="0.17.3" target_tk="gtk-4.0">
+  <ui>
+	(1,6,"ui_file.ui","ui_file.ui",None,None,None,None,None,None,None)
+  </ui>
+  <object>
+	(1,5,"GtkAlertDialog","alertdialog",None,None,None,None,None,None,None),
+	(1,6,"GtkApplicationWindow","window",None,None,None,None,None,None,None),
+	(1,8,"GtkButton",None,6,None,None,None,1,None,None)
+  </object>
+  <object_property>
+	(1,5,"GtkAlertDialog","buttons","A\nB\nC",None,None,None,None,None,None,None,None,None),
+	(1,5,"GtkAlertDialog","default-button","0",None,None,None,None,None,None,None,None,None),
+	(1,5,"GtkAlertDialog","detail","A,B,Cのうちどれかを選択してください。",None,None,None,None,None,None,None,None,None),
+	(1,5,"GtkAlertDialog","message","選択肢",None,None,None,None,None,None,None,None,None),
+	(1,6,"GtkWindow","default-height","60",None,None,None,None,None,None,None,None,None),
+	(1,6,"GtkWindow","default-width","350",None,None,None,None,None,None,None,None,None),
+	(1,6,"GtkWindow","title","pyt_gtk4_alertdialog3",None,None,None,None,None,None,None,None,None),
+	(1,8,"GtkButton","label","Gtk.AlertDialogの呼び出し",None,None,None,None,None,None,None,None,None),
+	(1,8,"GtkWidget","margin-bottom","20",None,None,None,None,None,None,None,None,None),
+	(1,8,"GtkWidget","margin-end","20",None,None,None,None,None,None,None,None,None),
+	(1,8,"GtkWidget","margin-start","20",None,None,None,None,None,None,None,None,None),
+	(1,8,"GtkWidget","margin-top","20",None,None,None,None,None,None,None,None,None)
+  </object_property>
+  <object_signal>
+	(5,1,8,"GtkButton","clicked","on_button_clicked",None,None,None,None,None)
+  </object_signal>
+</cambalache-project>
